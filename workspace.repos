@@ -1,0 +1,52 @@
+repositories:
+
+  # ── Your forks (modified, Pepper+L2 integration) ──────────────────────────
+
+  src/FAST_LIO_ROS2:
+    type: git
+    url: https://github.com/yohatad/FAST_LIO_ROS2.git
+    version: ros2
+
+  src/kiss-icp:
+    type: git
+    url: https://github.com/yohatad/kiss-icp.git
+    version: main
+
+  src/l2lidar_node:
+    type: git
+    url: https://github.com/yohatad/l2lidar_node.git
+    version: main
+
+  src/point_lio_ros2:
+    type: git
+    url: https://github.com/yohatad/point_lio_ros2.git
+    version: main
+
+  src/realsense-ros:
+    type: git
+    url: https://github.com/yohatad/realsense-ros.git
+    version: ros2-master
+
+  src/unilidar_sdk2:
+    type: git
+    url: https://github.com/yohatad/unilidar_sdk2.git
+    version: main
+
+  # ── Upstream (unmodified third-party) ─────────────────────────────────────
+
+  src/direct_visual_lidar_calibration:
+    type: git
+    url: https://github.com/koide3/direct_visual_lidar_calibration.git
+    version: main
+
+  src/ydlidar_ros2_driver:
+    type: git
+    url: https://github.com/YDLIDAR/ydlidar_ros2_driver.git
+    version: master
+
+  # ── In-house packages ─────────────────────────────────────────────────────
+
+  src/custom_launch:
+    type: git
+    url: https://github.com/yohatad/custom_launch.git
+    version: master
